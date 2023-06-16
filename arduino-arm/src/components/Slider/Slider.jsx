@@ -12,7 +12,8 @@ export default function Slider({className, changePos, posArray, idx, label}) {
 
   return (
     <div className={'slider-container ' + className}>
-      <label><i>{label}</i></label>
+      <label><i>{label}</i></label><span>{posArray[idx]}</span>
+      
       <div className='slider'>
         <input
           type='range'
@@ -21,7 +22,6 @@ export default function Slider({className, changePos, posArray, idx, label}) {
           value={posArray[idx]}
           onInput={handleChange}
         />
-        <p>{posArray[idx]}</p>
       </div>
     </div>
   )

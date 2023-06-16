@@ -37,9 +37,12 @@ $alt-color: rgba(248, 248, 248, 1);
 
     .reset {
       flex: 0 1 auto;
-      font-size: 3vmin;
+      font-size: 2vh;
       margin-bottom: 0;
       cursor: pointer;
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
 }
