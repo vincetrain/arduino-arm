@@ -16,7 +16,7 @@ export default function Connected({device, className}) {
     }
     const timeout = setTimeout(() => {
       write(device, 'WRITE'+posArray.toString());
-    }, 200);
+    }, 600);
     return () => {
       clearTimeout(timeout);
     };
@@ -34,8 +34,8 @@ export default function Connected({device, className}) {
           <Slider changePos={changePos} posArray={posArray} label={"Waist"} idx={0}/>
           <Slider changePos={changePos} posArray={posArray} label={"Shoulder"} idx={1}/>
           <Slider changePos={changePos} posArray={posArray} label={"Elbow"} idx={2}/>
-          <Slider changePos={changePos} posArray={posArray} label={"Wrist Axis"} idx={3}/>
-          <Slider changePos={changePos} posArray={posArray} label={"Wrist Yaw"} idx={4}/>
+          <Slider changePos={changePos} posArray={posArray} label={"Wrist Roll"} idx={3}/>
+          <Slider changePos={changePos} posArray={posArray} label={"Wrist Pitch"} idx={4}/>
           <Slider changePos={changePos} posArray={posArray} label={"Claw"} idx={5}/>
           <p className='reset' onClick={handleReset}>RESET</p>
       </div>

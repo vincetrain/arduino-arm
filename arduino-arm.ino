@@ -2,8 +2,8 @@
 
 Servo servos[6];
 // YELLOW: CLAW
-// WHITE: WRIST-AXIS
-// ORANGE: WRIST-YAW
+// WHITE: WRIST-ROLL
+// ORANGE: WRIST-PITCH
 // PINK: ELBOW
 
 const int servos_defaultPos[6] = {90, 120, 180, 0, 0, 170};
@@ -23,10 +23,7 @@ void setup()
 	pinMode(0, INPUT);
 	pinMode(1, OUTPUT);
 	Serial.begin(38400);
-  Serial.setTimeout(1);
-
-	delay(300);
-
+  Serial.setTimeout(100);
 	initServos();
 	restorePos(servos_defaultPos);
 }
