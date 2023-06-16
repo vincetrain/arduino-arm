@@ -2,7 +2,7 @@ import './Slider.scss'
 
 import { useCallback } from 'react';
 
-export default function Slider({className, changePos, posArray, idx, label, max}) {
+export default function Slider({className, changePos, posArray, idx, label, min, max}) {
 
   function handleChange(event) {
     let newArr = [...posArray];
@@ -17,7 +17,7 @@ export default function Slider({className, changePos, posArray, idx, label, max}
       <div className='slider'>
         <input
           type='range'
-          min={0}
+          min={min || 0}
           max={max || 180}
           value={posArray[idx]}
           onInput={handleChange}

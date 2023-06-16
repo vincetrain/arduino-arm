@@ -36,7 +36,7 @@ export default function Connected({device, className}) {
           <Slider changePos={changePos} posArray={posArray} label={"Elbow"} idx={2}/>
           <Slider changePos={changePos} posArray={posArray} label={"Wrist Roll"} idx={3}/>
           <Slider changePos={changePos} posArray={posArray} label={"Wrist Pitch"} idx={4}/>
-          <Slider changePos={changePos} posArray={posArray} label={"Claw"} max={90} idx={5}/>
+          <Slider changePos={changePos} posArray={posArray} label={"Claw"} min={90} max={180} idx={5}/>
           <p className='reset' onClick={handleReset}>RESET</p>
       </div>
       {/* <div className='monitor pane'>
