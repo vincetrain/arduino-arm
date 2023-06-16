@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/arduino-arm/node_modules
+/arduino-arm/.pnp
+/arduino-arm/.pnp.js
+
+# testing
+/arduino-arm/coverage
+
+# production
+/arduino-arm/build
+
+# misc
+/arduino-arm/.DS_Store
+/arduino-arm/.env.local
+/arduino-arm/.env.development.local
+/arduino-arm/.env.test.local
+/arduino-arm/.env.production.local
+
+/arduino-arm/npm-debug.log*
+/arduino-arm/yarn-debug.log*
+/arduino-arm/yarn-error.log*

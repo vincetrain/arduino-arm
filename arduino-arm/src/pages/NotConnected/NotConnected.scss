@@ -1,0 +1,60 @@
+$background-color: rgb(33, 36, 44);
+$button-color: rgba(48, 51, 61, 1);
+$alt-color: rgba(248, 248, 248, 1);
+
+.notconnected-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  h1 {
+    flex: 3 2 auto;
+    font-size: 2vmax;
+    
+    text-align: center;
+    color: $alt-color;
+  }
+
+  img {
+    flex: 3 1 auto;
+    width: max-content;
+    margin: auto;
+    border-radius: 10px;
+    width: 20vmax;
+
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      width: 30vmax;
+    }
+  }
+
+  button {
+    flex: 1 1 auto;
+    margin: auto;
+    padding: 1em 1.5em;
+  
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: $alt-color;
+    background-color: $button-color;
+  
+    color: $alt-color;
+    font-size: 1.4vmax;
+    font-weight: 700;
+  
+    cursor: pointer;
+  
+    &:hover {
+      filter: opacity(0.7);
+    }
+  
+    &:active {
+      filter: opacity(0.5);;
+    }
+  }
+}

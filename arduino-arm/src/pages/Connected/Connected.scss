@@ -1,0 +1,45 @@
+$alt-color: rgba(248, 248, 248, 1);
+
+.connected-container {
+  position: fixed;
+  display: flex;
+  gap: 1.2vmin;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  color: $alt-color;
+
+  margin: 1.2vmin;
+
+  width: stretch;
+  height: stretch;
+
+  .pane {
+    flex: 1 1 auto;    
+
+
+    padding: 2vmin;
+    border-radius: 10px;
+    background-color: rgba(64, 68, 81, 1);
+    min-width: 47%;
+
+
+    h2 {
+      flex: 0 1 auto;
+      margin-bottom: 2vmin;
+      margin-top: 0;
+      text-align: center;
+      background-color: rgba(21, 24, 30, 1);
+      border-radius: 10px;
+      font-size: 8vmin;
+    }
+
+    .reset {
+      flex: 0 1 auto;
+      font-size: 3vmin;
+      margin-bottom: 0;
+      cursor: pointer;
+    }
+  }
+}
