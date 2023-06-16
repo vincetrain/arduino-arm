@@ -6,7 +6,7 @@ Follow the steps below to run this project:
 <ol>
   <li>Configure and connect your arduino arm to your device</li>
   <li>Upload "arduino-arm.ino" on to your Arduino device</li>
-  <li>Start the web-app using ```npm start``` in the ```/arduino-arm``` directory</li>
+  <li>Start the web-app using npm start in the /arduino-arm directory</li>
 </ol>
 
 ### Default Pin Layout  
