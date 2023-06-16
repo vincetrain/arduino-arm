@@ -16,7 +16,7 @@ export default function Connected({device, className}) {
     }
     const timeout = setTimeout(() => {
       write(device, 'WRITE'+posArray.toString());
-    }, 600);
+    }, 200);
     return () => {
       clearTimeout(timeout);
     };
