@@ -5,7 +5,7 @@ This project works as a controller for an arduino robotic arm, where it interfac
 Follow the steps below to run this project:
 <ol>
   <li>
-    Connect your arduino arm pins as follows:  
+    Connect your arduino arm pins as follows:<br>
     | PIN   | 5     | 6        | 7     | 8          | 9         | 10   |
     |-------|-------|----------|-------|------------|-----------|------|
     | SERVO | WAIST | SHOULDER | ELBOW | WRIST-AXIS | WRIST-YAW | CLAW |
