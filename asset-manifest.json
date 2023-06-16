@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/arduino-arm/static/css/main.b2edcb78.css",
-    "main.js": "/arduino-arm/static/js/main.f85bfae8.js",
+    "main.js": "/arduino-arm/static/js/main.abafce72.js",
     "static/media/cat-kitten.gif": "/arduino-arm/static/media/cat-kitten.71f26f50412980601fb8.gif",
     "index.html": "/arduino-arm/index.html",
     "main.b2edcb78.css.map": "/arduino-arm/static/css/main.b2edcb78.css.map",
-    "main.f85bfae8.js.map": "/arduino-arm/static/js/main.f85bfae8.js.map"
+    "main.abafce72.js.map": "/arduino-arm/static/js/main.abafce72.js.map"
   },
   "entrypoints": [
     "static/css/main.b2edcb78.css",
-    "static/js/main.f85bfae8.js"
+    "static/js/main.abafce72.js"
   ]
 }
