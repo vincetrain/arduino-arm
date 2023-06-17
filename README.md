@@ -9,6 +9,11 @@ Follow the steps below to run this project:
   <li>Start the web-app or open the Github repository's page</li>
 </ol>
 
+### Schematic
+<embed src="http://github.com/vincetrain/arduino-arm/schematic.pdf">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://github.com/vincetrain/arduino-arm/schematic.pdf">Download PDF</a>.</p>
+</embed>
+
 ### Default Pin Layout  
 | PIN   | 5     | 6        | 7     | 8          | 9         | 10   |
 |-------|-------|----------|-------|------------|-----------|------|
