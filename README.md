@@ -6,7 +6,7 @@ Follow the steps below to run this project:
 <ol>
   <li>Configure and connect your arduino arm to your device</li>
   <li>Upload "arduino-arm.ino" on to your Arduino device</li>
-  <li>Start the web-app or open the [Github repository's page](https://vincetrain.github.io/arduino-arm/)</li>
+  <li>Start the web-app or open the <a href="https://vincetrain.github.io/arduino-arm/">Github repository's page</a></li>
 </ol>
 
 ### Schematic
