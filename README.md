@@ -10,7 +10,7 @@ Follow the steps below to run this project:
 </ol>
 
 ### Schematic
-[!alt Picture of schematic](https://github.com/vincetrain/arduino-arm/blob/main/schematic.png)
+[!alt Picture of schematic](https://github.com/vincetrain/arduino-arm/blob/main/schematic.png?raw=true)
 
 ### Default Pin Layout  
 | PIN   | 5     | 6        | 7     | 8          | 9         | 10   |
