@@ -10,9 +10,6 @@ Follow the steps below to run this project:
 </ol>
 
 ### Schematic
-<embed src="https://raw.githubusercontent.com/vincetrain/arduino-arm/8f13054d30ff567ef14776c97479c56857807591/schematic.pdf">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/vincetrain/arduino-arm/8f13054d30ff567ef14776c97479c56857807591/schematic.pdf">Download PDF</a>.</p>
-</embed>
 
 ### Default Pin Layout  
 | PIN   | 5     | 6        | 7     | 8          | 9         | 10   |
