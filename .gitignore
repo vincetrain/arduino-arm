@@ -21,3 +21,5 @@
 /arduino-arm/npm-debug.log*
 /arduino-arm/yarn-debug.log*
 /arduino-arm/yarn-error.log*
+
+.vscode
