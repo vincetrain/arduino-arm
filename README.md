@@ -6,9 +6,9 @@ Follow the steps below to run this project:
 <ol>
   <li>Flash arduino-arm.ino onto your Arduino Uno R3</li>
   <li>3D print parts for the robotic arm</li>
-  <li>Assemble the robotic arm, and install Servo motors to the arm and Arduino following the schematic below<a href="https://vincetrain.github.io/arduino-arm/">Github repository's page</a></li>
+  <li>Assemble the robotic arm, and install Servo motors to the arm and Arduino following the schematic below</li>
   <li>Power on the Arduino and connect it to your device</li>
-  <li>Connect the webapp to your Arduino and enjoy</li>
+  <li>Connect the webapp by either running it locally, or through the <a href="https://vincetrain.github.io/arduino-arm/">Github repository's page</a>, to your Arduino and enjoy</li>
 </ol>
 
 ### Parts Required
