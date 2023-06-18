@@ -6,7 +6,7 @@ export default function Slider({className, changePos, posArray, idx, label, min,
 
   function handleChange(event) {
     let newArr = [...posArray];
-    newArr[idx] = Math.min(Math.max(event.target.value, 0), 180);
+    newArr[idx] = Math.min(Math.max(event.target.value, min), max);
     changePos(newArr);
   };
 

@@ -39,8 +39,6 @@ export default function Connected({device, className}) {
           <Slider changePos={changePos} posArray={posArray} label={"Claw"} min={90} max={180} idx={5}/>
           <p className='reset' onClick={handleReset}>RESET</p>
       </div>
-      {/* <div className='monitor pane'>
-      </div> */}
     </div>
   );
 }

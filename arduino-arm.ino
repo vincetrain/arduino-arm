@@ -1,10 +1,6 @@
 #include <Servo.h>
 
 Servo servos[6];
-// YELLOW: CLAW
-// WHITE: WRIST-ROLL
-// ORANGE: WRIST-PITCH
-// PINK: ELBOW
 
 const int servos_defaultPos[6] = {90, 120, 180, 0, 0, 170};
 
