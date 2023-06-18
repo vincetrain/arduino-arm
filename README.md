@@ -4,10 +4,22 @@ This project works as a controller for an arduino robotic arm, where it interfac
 ## Usage  
 Follow the steps below to run this project:
 <ol>
-  <li>Configure and connect your arduino arm to your device</li>
-  <li>Upload "arduino-arm.ino" on to your Arduino device</li>
-  <li>Start the web-app or open the <a href="https://vincetrain.github.io/arduino-arm/">Github repository's page</a></li>
+  <li>Flash arduino-arm.ino onto your Arduino Uno R3</li>
+  <li>3D print parts for the robotic arm</li>
+  <li>Assemble the robotic arm, and install Servo motors to the arm and Arduino following the schematic below<a href="https://vincetrain.github.io/arduino-arm/">Github repository's page</a></li>
+  <li>Power on the Arduino and connect it to your device</li>
+  <li>Connect the webapp to your Arduino and enjoy</li>
 </ol>
+
+## Parts Required
+<ul>
+  <li>[3D printed arm parts, courtesy of HowToMechatronics](https://thangs.com/designer/HowToMechatronics/3d-model/Robotic%20Arm%203D%20Model-38899)</li>
+  <li>3x MG996R Servo Motors</li>
+  <li>3x SG90 Micro Servo Motors</li>
+  <li>Arduino Uno R3</li>
+  <li>External 5V powersupply or greater</li>
+  <li>Breadboard, PCB, or another form of electronics connection</li>
+</ul>
 
 ### Schematic
 ![Picture of schematic](https://raw.githubusercontent.com/vincetrain/arduino-arm/main/schematic.png)
