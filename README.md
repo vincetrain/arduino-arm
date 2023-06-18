@@ -18,8 +18,8 @@ Follow the steps below to run this project:
 ### Parts Required
 <ul>
   <li><a href="https://thangs.com/designer/HowToMechatronics/3d-model/Robotic%20Arm%203D%20Model-38899">3D printed arm parts, courtesy of HowToMechatronics</a></li>
-  <li>3x MG996R Servo Motors</li>
-  <li>3x SG90 Micro Servo Motors</li>
+  <li>3x MG996R Servo motors</li>
+  <li>3x SG90 Micro Servo motors</li>
   <li>Arduino Uno R3</li>
   <li>External 5V powersupply or greater</li>
   <li>Breadboard, PCB, or another form of electronics connection</li>
