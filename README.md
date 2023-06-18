@@ -1,6 +1,9 @@
 # arduino-arm
 This project works as a controller for an arduino robotic arm, where it interfaces and controls servo motors attached to the arduino via a React.js frontend.  
-If you wish to read about how the code in this repository works, please <a href="https://github.com/vincetrain/arduino-arm/wiki">visit the wiki</a>.
+If you wish to read about how the code in this repository works, please <a href="https://github.com/vincetrain/arduino-arm/wiki">visit the wiki</a>.  
+  
+![ezgif-5-1b08758ddb](https://github.com/vincetrain/arduino-arm/assets/37345016/7a33b9bd-e40d-48c7-b0c9-1034059908e3)
+  
 
 ## Usage  
 Follow the steps below to run this project:
