@@ -11,7 +11,7 @@ Follow the steps below to run this project:
   <li>Connect the webapp to your Arduino and enjoy</li>
 </ol>
 
-## Parts Required
+### Parts Required
 <ul>
   <li>[3D printed arm parts, courtesy of HowToMechatronics](https://thangs.com/designer/HowToMechatronics/3d-model/Robotic%20Arm%203D%20Model-38899)</li>
   <li>3x MG996R Servo Motors</li>
